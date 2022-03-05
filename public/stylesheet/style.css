@@ -8,22 +8,22 @@ html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: rgb(16, 16, 16);
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #16d03b;
   font-weight: bold;
   transition: color 0.1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: #16d03b;
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #0916a2;
   border: 0;
   padding: 1%;
   color: white;
@@ -52,7 +52,7 @@ input {
 textarea:focus,
 input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid #9607b3;
 }
 
 textarea {
@@ -72,13 +72,13 @@ form label {
   width: 100%;
   min-height: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgb(159, 8, 8);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,7 +100,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #16d03b;
   font-size: 100%;
   font-weight: bold;
   transition: color 0.1s;
@@ -109,11 +109,11 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #5c0b96;
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: #e30c0c;
 }
 
 .delete-post-btn:hover {
@@ -173,7 +173,7 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid rgb(159, 8, 8);
   display: flex;
   justify-content: center;
   padding: 1%;
